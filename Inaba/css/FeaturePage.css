@@ -1,0 +1,166 @@
+/* 标题栏 B */
+.PageTitle .PageTitle_picture1 {
+    border-radius: 0;
+    background-image: url(../images/picture15.jpg);
+    background-position: right center;
+}
+/* 标题栏 E */
+
+
+/* 文字栏 B */
+.FeaturePage_wordbox {
+    width: 100%;
+    height: 312px;
+    margin: 130px auto;
+
+    background-image: url(../images/backgroundword.png);
+    background-size: auto 162px;
+    background-repeat: no-repeat;
+    background-position: center,65px;
+}
+.FeaturePage_wordbox_center {
+    width: 890px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.FeaturePage_wordbox_center .word1 {
+    width: 392px;
+    height: 59px;
+    position: absolute;
+    top: 126.5px;
+}
+.FeaturePage_wordbox_center .word1 span {
+    color: #888;
+    font-size: 14px;
+}
+.FeaturePage_wordbox_center .word1 h3 {
+    display: inline-block;
+    position: absolute;
+    top: 32px;
+    left: 0;
+
+    font-size: 28px;
+    font-weight: 100;
+}
+.FeaturePage_wordbox_center .word2 {
+    width: 368px;
+    height: 312px;
+}
+.FeaturePage_wordbox_center .word2 p {
+    letter-spacing: 1px;
+    line-height: 2.4;
+    font-size: 15px;
+    font-weight: 300;
+}
+.FeaturePage_wordbox_center .word2 .p2 {
+    margin-top: 24px;
+}
+/* 文字栏 E */
+
+
+/* 插花案例栏 B */
+.FeaturePage_arrange {
+    width: 100%;
+    height: 713px;
+}
+.FeaturePage_arrange_center {
+    width: 1160px;
+    height: 100%;
+    margin: 0 auto;
+}
+.FeaturePage_arrange_center .head {
+    width: 100%;
+    height: 59px;
+    text-align: center;
+}
+.FeaturePage_arrange_center .head span {
+    font-size: 14px;
+}
+.FeaturePage_arrange_center .head h3 {
+    margin-top: 16px;
+    font-size: 28px;
+    font-weight: 100;
+}
+.FeaturePage_arrange_center .picture {
+    width: 1160px;
+    height: 486px;
+    margin-top: 64px;
+    position: relative;
+}
+.FeaturePage_arrange_center .picture .picture1,
+.FeaturePage_arrange_center .picture .picture2,
+.FeaturePage_arrange_center .picture .picture3,
+.FeaturePage_arrange_center .picture .picture4{
+    display: inline-block;
+    width: 275px;
+    height: 400px;
+    margin-right: 20px;
+}
+.FeaturePage_arrange_center .picture img {
+    width: 275px;
+    height: auto;
+    border-radius: 0 0 48px 0;
+}
+.FeaturePage_arrange_center .picture .picture2 {
+    position: absolute;
+    top: 36px;
+}
+.FeaturePage_arrange_center .picture .picture3 {
+    position: absolute;
+    top: 0px;
+    left: 590px;
+}
+.FeaturePage_arrange_center .picture .picture4 {
+    position: absolute;
+    top: 36px;
+    left: 885px;
+}
+.FeaturePage_arrange_center .picture .case {
+    width: 104px;
+    height: 40px;
+    border-radius: 0 0 12px 0;
+    position: absolute;
+
+    background: #333;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 40px;
+}
+.FeaturePage_arrange_center .picture .case1 {
+    top: 12px;
+    left: 0;
+}
+.FeaturePage_arrange_center .picture .case2 {
+    top: 48px;
+    left:295px;
+}
+.FeaturePage_arrange_center .picture .case3 {
+    top: 12px;
+    left: 590px;
+}
+.FeaturePage_arrange_center .picture .case4 {
+    top: 48px;
+    left: 885px;
+}
+.FeaturePage_arrange_center .buybtn{
+    width: 320px;
+    height: 56px;
+    margin: 48px auto 0;
+
+    background: #333;
+    border-radius: 28px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 56px;
+    text-align: center;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+.FeaturePage_arrange_center .buybtn:hover {
+    background: #717171;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+/* 插花案例栏 E */

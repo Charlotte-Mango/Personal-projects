@@ -1,0 +1,80 @@
+/* 标题栏 B */
+.PageTitle .PageTitle_picture3 {
+    background-image: url(../images/picture28.jpg);
+    background-position: center center;
+}
+/* 标题栏 E */
+
+/* 内容栏 B */
+.AboutPage_content {
+    width: 960px;
+    margin: 0 auto;
+}
+.AboutPage_content p {
+    text-align: center;
+}
+.AboutPage_content .no1 {
+    width: 100%;
+    height: auto;
+    margin-top: 32px;
+}
+.AboutPage_content .location {
+    justify-content: space-between;
+    padding: 60px;
+    background: #f5f5f5;
+    border-radius: 0 0 0 48px;
+}
+.AboutPage_content .location .map {
+    width: 396px;
+}
+.AboutPage_content .location .map .no2 {
+    width: 100%;
+    height: auto;
+}
+.AboutPage_content .location .main {
+    width: 396px;
+}
+.AboutPage_content .location .main img {
+    width: 120px;
+    height: auto;
+}
+.AboutPage_content .location .main .info {
+    margin-bottom: 20px;
+}
+.AboutPage_content .location .main .info li {
+    color: #333;
+    margin-top: 12px;
+}
+.AboutPage_content .location .main .info li span {
+    margin-right: 8px;
+}
+.AboutPage_content .location .main .info .call span {
+   width: 17px;
+}
+.AboutPage_content .location .main .info li span img {
+    width: 17px;
+}
+.AboutPage_content .location .main .info .call span img {
+    width: 11.13px;
+}
+.AboutPage_content .location .main .contact a {
+    width: 270px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+    text-align: center;
+    border-radius: 22px;
+    color: #333;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+.AboutPage_content .location .main .contact a:hover {
+    background: #d4d4d4;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+.AboutPage_content .location .main .contact a img {
+    margin-right: 8px;
+    width: 15px;
+    height: auto;
+}
+/* 内容栏 E */

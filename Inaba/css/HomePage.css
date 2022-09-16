@@ -1,0 +1,572 @@
+
+.TopNavigationBar {
+    background: rgba(255,255,255,0); 
+}
+/* 首页大图 B */
+.BigPicture1 {
+    height: 793px;
+    background-image: url(../images/picture1.jpg);
+    background-size: 1535px,auto;/* 设置背景图片大小 */
+}
+
+    /* 大图1遮罩 */
+.BigPicture1 .BigPicture1_shade
+{
+    height: 793px;
+    background: rgba(0,0,0,.3);
+}
+   /* 大图1文字 */
+.BigPicture1 img {
+    display: none;    /* 隐藏 */
+    width: 700px;
+    margin-top: 357.71px;
+    margin-left: 403px;
+    margin-bottom: 24px;
+}
+.BigPicture1 p {
+    display: none;    /* 隐藏 */
+    color: white;
+    width: 700px;
+    letter-spacing: 3px;/* 字母间距 */
+    text-align: center;/* 文字居中 */
+    margin-left: 403px;
+}
+
+.BigPicture2 {
+    height: 793px;
+    background-image: url(../images/picture2.jpg);
+    background-size: 1535px,auto;
+    
+}
+
+.BigPicture3 {
+    height: 793px;
+    background-image: url(../images/picture3.jpg);
+    background-size: 1535px,auto;/* 设置背景图片大小 */
+    
+}
+/* 首页大图 E */
+
+/* Information栏 B */
+.Information {
+    width: 80%;
+    height: 80px;
+    background: #333333;
+    border-radius: 0 0 32px 0;
+}
+.Information ul {
+    width: 1123px;
+    margin-top: 30px;
+}
+
+.Information .li1 {
+    margin-left: 40px;
+    margin-right: 56px;
+}
+
+.Information .li3 {
+    margin-left: 16px;
+}
+
+.Information li a {
+    transition-duration:0.5s;/* 过渡时间 */
+}
+
+.Information li a:hover{
+    color: #8f8f8f;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+/* Information栏 E */
+
+/* 本店特色选择栏 B */
+.Feature {
+    width: 1080px;
+    height: 400px;
+    margin: 160px auto;/* 左右居中 */
+}
+.Feature .Feature_left {
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+}
+.Feature .Feature_left h1 {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-weight: 100;
+    font-size: 30px;
+}
+.Feature .Feature_left span {
+    font-size: 16px;
+    font-weight: 200;
+    color: #888;
+}
+.Feature .Feature_left p {
+    height: 105.6px;
+    font-size: 18px;
+    margin: 32px 0 40px;
+    line-height: 1.8;
+    color: #555555;
+}
+.Feature .Feature_left a {
+    display: block;
+
+}
+   /* 本店特色按钮 */
+.Feature .Feature_left a div {
+    width: 318px;
+    height: 58px;
+    border:1px solid black;/* 边框线 */
+    border-radius: 30px;/* 圆角 */
+
+    color: #333333;
+    font-size: 17px;
+    text-align: center;
+    line-height: 58px;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+.Feature .Feature_left a div:hover {
+    background-color: #333333;
+    color: #fff;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+.Feature .Feature_right {
+    display: inline-block;
+    width: 480px;
+    height: 400px;
+    position: relative;
+}
+.Feature .Feature_right img {
+    width: 100%;
+    border-radius: 0 48px;
+}
+.Feature .Feature_right:before {
+    display: block;
+    content: '';
+    width: 170px;
+    height: 178px;
+    background-image: url(../images/flower.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -100px;
+    left: -60px;
+}
+/* 本店特色选择栏 E */
+
+/* 插花栏 B */
+.Ikebana
+{
+    height: 804.4px;
+    margin-top: 120px;
+    padding: 490px 0 120px;
+    /* 背景色渐变 */
+    background: linear-gradient(180deg, #fff 0, #fff 17%, #eee 17%);
+     /* 这里定位是因为greenflower要定位父元素也需要有定位 */
+    position: relative;
+   
+}
+.Ikebana_introduce
+{
+    width: 1160px;
+    height: 488.4px;
+    margin: 48px auto 64px;
+    position: relative;
+}
+.Ikebana_introduce .introduce1,
+.Ikebana_introduce .introduce2,
+.Ikebana_introduce .introduce3,
+.Ikebana_introduce .introduce4{
+    display: inline-block;
+    width: 200px;
+    height: 368.4px;
+    padding: 40px;
+    background: #fff;
+    border-radius: 0 48px;
+    position: absolute;
+    
+}
+.Ikebana_introduce .introduce1 {
+    top:0px;
+}
+.Ikebana_introduce .introduce1 h3,
+.Ikebana_introduce .introduce2 h3,
+.Ikebana_introduce .introduce3 h3,
+.Ikebana_introduce .introduce4 h3 {
+    height: 14.4px;
+    color: #333333;
+    font-weight: 200;
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.Ikebana_introduce .introduce1 img,
+.Ikebana_introduce .introduce2 img,
+.Ikebana_introduce .introduce3 img,
+.Ikebana_introduce .introduce4 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.Ikebana_introduce .introduce1 a div,
+.Ikebana_introduce .introduce2 a div,
+.Ikebana_introduce .introduce3 a div,
+.Ikebana_introduce .introduce4 a div{
+    width: 198px;
+    height: 29px;
+    margin-top: 24px;
+    padding-top: 9px;
+    border: 1px solid #333;
+    border-radius: 20px;
+
+    color: #333333;
+    text-align: center;
+    font-weight: normal;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+.Ikebana_introduce .introduce1 a div:hover,
+.Ikebana_introduce .introduce2 a div:hover,
+.Ikebana_introduce .introduce3 a div:hover,
+.Ikebana_introduce .introduce4 a div:hover {
+    background-color: #333333;
+    color: #fff;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+.Ikebana_introduce .introduce2{
+    top:40px;
+    left:292px;
+}
+.Ikebana_introduce .introduce3{
+    top:0px;
+    left:584px;
+}
+.Ikebana_introduce .introduce4{
+    top:40px;
+    left:876px;
+}
+.Ikebana .greenflower {
+    display: block;
+    width: 90%;
+    height: 410px;
+    background-image: url(../images/picture5.jpg);
+    background-position: center;
+    background-size: cover;/* 图片大小刚好覆盖 */
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 80px 0 0 0;
+}
+.Ikebana .Ikebana_line {
+    width: 1px;
+    height: 60px;
+    background: #333;
+    margin: 0 auto 24px; /* 居中并且有下边距 */
+}
+.Ikebana h1 {
+    font-weight: 100;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 16px;
+    letter-spacing: 3px;
+}
+.Ikebana h2 {
+    font-size: 15px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.Ikebana .Ikebana_btn div{
+    width: 318px;
+    height: 37px;
+    padding-top: 21px;
+    margin: 0 auto;
+    border: 1px solid #333;
+    border-radius: 30px;
+
+    color: #333333;
+    letter-spacing: 1px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 25px;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+.Ikebana .Ikebana_btn div:hover {
+    background-color: #333333;
+    color: #fff;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+/* 插花栏 E */
+
+
+/* 用途选择栏 B */
+.Purpose {
+    width: 1518.4px;
+    height: 1536.3px;
+    padding: 80px 0 120px;
+    position: relative;
+}
+.Purpose .Purpose_ornament1 {
+    width: 330px;
+    height: 352px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+.Purpose .Purpose_head {
+    height: 144px;
+}
+.Purpose .Purpose_head .line {
+    width: 1px;
+    height: 60px;
+    background: #333;
+    margin: 0 auto 24px; /* 居中并且有下边距 */
+}
+.Purpose .Purpose_head h1 {
+    font-weight: 100;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 16px;
+    letter-spacing: 3px;
+}
+.Purpose .Purpose_head h2 {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
+.Purpose .Purpose_content {
+    margin-top: 48px;
+    height: 1344.38px;
+    position: relative;
+}
+.Purpose .Purpose_content .usepicture {
+    width: 759.2px;
+    height: 268.88px;
+    display: inline-block;
+}
+.Purpose .Purpose_content .useword {
+    display: inline-block;
+    width: 754.2px;
+    height: 268.88px;
+
+}
+.Purpose .Purpose_content .useword1 {
+    position: absolute;
+    top: 0;
+}
+.Purpose .Purpose_content .useword .useword_center {
+    display: inline-block;
+    width: 435px;
+    height: 156.8px;
+    margin: 56.04px 159.5px;
+}
+.Purpose .Purpose_content .useword .useword_center h3 {
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+.Purpose .Purpose_content .useword .useword_center p {
+    padding: 0 24%;
+    letter-spacing: 1px;
+    color: #555555;
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.morebtn {
+    width: 198px;
+    height: 29px;
+    padding-top: 9px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    margin: 0 auto;
+
+    text-align: center;
+    color: #333333;
+    font-weight: normal;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+.morebtn:hover {
+    background-color: #333333;
+    color: #fff;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+.Purpose .Purpose_content .useword2 {
+    position: absolute;
+    width: 759.2px;
+    top: 268.88px;
+    left: 0;
+}
+.Purpose .Purpose_content .usepicture2 {
+    position: absolute;
+    top: 268.88px;
+    right:0;
+}
+.Purpose .Purpose_content .usepicture3 {
+    position: absolute;
+    top: 537.76px;
+    left:0;
+}
+.Purpose .Purpose_content .useword3 {
+    position: absolute;
+    width: 754.2px;
+    top: 537.76px;
+    right: 0;
+}
+.Purpose .Purpose_content .useword4 {
+    position: absolute;
+    width: 759.2px;
+    top: 806.64px;
+    left: 0;
+}
+.Purpose .Purpose_content .usepicture4 {
+    position: absolute;
+    top: 806.64px;
+    right:0;
+}
+.Purpose .Purpose_content .usepicture5 {
+    position: absolute;
+    top: 1075.52px;
+    left:0;
+}
+.Purpose .Purpose_content .useword5 {
+    position: absolute;
+    width: 754.2px;
+    top: 1075.52px;
+    right: 0;
+}
+/* 用途选择栏 E */
+
+/* 博客栏 B */
+.Blog {
+    width: 1518.4px;
+    height: 373.2px;
+    padding: 120px 0;
+    position: relative;
+    background: linear-gradient(90deg, #333 95%, #fff 5%);
+
+}
+.Blog:after {
+    content: '';
+    width: 80px;
+    height: 80px;
+    background: url(../images/round\ corner.png);
+    position: absolute;
+    top: 0;
+    right: 5%;
+}
+.Blog .Blog_content {
+    width: 1160px;
+    margin: 0 auto;
+}
+.Blog .Blog_content h1 {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 3px;
+}
+.Blog .Blog_content h2 {
+    display: inline-block;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+}
+.Blog .Blog_content .word {
+    width: 1000px;
+    height: 14.4px;
+    margin-bottom: 58px;
+    margin-top: 48px;
+    padding: 80px;
+    background: #555;
+    border-radius: 0 48px;
+
+    font-weight: 100;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.Blog .Blog_content .blogbtn {
+    width: 318px;
+    height: 58px;
+    border:1px solid white;/* 边框线 */
+    border-radius: 30px;/* 圆角 */
+
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    line-height: 58px;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+.Blog .Blog_content .blogbtn:hover {
+    background-color: #fff;
+    color: #333333;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+/* 博客栏 E */
+
+
+/* 联系栏 B */
+.Contact {
+    height: 382px;
+    padding: 80px 0 160px;
+    position: relative;
+}
+.Contact .petal1 {
+    width: 500px;
+    height: 352px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.Contact .petal2 {
+    width: 500px;
+    height: 352px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.Contact .head {
+    height: 144px;
+    margin-bottom: 180px;
+}
+.Contact .head h1 {
+    font-weight: 100;
+    font-size: 24px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 16px;
+    letter-spacing: 3px;
+}
+.Contact .head h2 {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    color: #333333;
+}
+.Contact .contactbtn {
+    width: 318px;
+    height: 58px;
+    border:1px solid black;/* 边框线 */
+    border-radius: 30px;/* 圆角 */
+    margin: 0 auto;
+
+    color: #333333;
+    font-size: 17px;
+    text-align: center;
+    line-height: 58px;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+.Contact .contactbtn:hover {
+    background-color: #333333;
+    color: #fff;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+/* 联系栏 E */
+
+/* 底部栏 */
+.BottomNavigationBar {
+    margin-top: 0;
+}

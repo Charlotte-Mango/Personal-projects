@@ -1,0 +1,54 @@
+/* 标题栏 B */
+.PageTitle .PageTitle_picture3 {
+    background-image: url(../images/picture27.jpg);
+    background-position: center center;
+}
+/* 标题栏 E */
+
+/* 问题栏 B */
+.Faq_content
+{
+    width: 900px;
+    height: 1210px;
+    margin: 0 auto;
+}
+.Faq_content p {
+    font-size: 15px;
+    line-height: 1.8;
+}
+.Faq_content .qa {
+    margin-top: 64px;
+    padding: 40px 48px;
+    border: 1px solid #ddd;
+    border-radius: 0 0 24px 0;
+}
+.Faq_content .qa .Q {
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #ddd;
+
+    font-size: 20px;
+    
+}
+.Faq_content .qa .Q span {
+    display: block;
+    margin-right: 32px;
+
+    font-family: 'Bahnschrift';
+    font-size: 38px;
+    color: #ff6e6e;
+}
+.Faq_content .qa .Q div {
+    line-height: 46.4px;
+    color: #ff6e6e;
+    font-weight: bold;
+}
+.Faq_content .qa .A span {
+    display: block;
+    margin-right: 32px;
+
+    font-family: 'Bahnschrift';
+    font-size: 38px;
+    color: black;
+}
+/* 问题栏 E */

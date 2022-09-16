@@ -1,0 +1,81 @@
+.BottomNavigationBar {
+    width: 1518.4px;
+    height: 300px;
+    padding: 112px 0 140px;
+    margin-top: 160px;
+    background: #333;
+}
+.BottomNavigationBar .BottomNavigationBar_center {
+    width: 1160px;
+    height: 100%;
+    margin-left: 179.2px;
+    position: relative;
+}
+.BottomNavigationBar .BottomNavigationBar_center .logo {
+    width: 244.45px;
+    height: 121.6px;
+    position: absolute;
+    top: 0;
+}
+.BottomNavigationBar .BottomNavigationBar_center .logo img {
+    width: 160px;
+}
+.BottomNavigationBar .BottomNavigationBar_center .address {
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 60px;
+    position: absolute;
+    top: 121.6px;
+}
+.BottomNavigationBar .BottomNavigationBar_center .tel {
+    display: inline-block;
+    width: 244.45px;
+    height: 90px;
+    position: absolute;
+    top: 200px;
+}
+.BottomNavigationBar .BottomNavigationBar_center .tel h4 {
+    display: inline-block;
+    margin-bottom: 6px;
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+}
+.BottomNavigationBar .BottomNavigationBar_center .tel .telcontent h3 {
+    display: inline-block;
+    width: 158.28px;
+    height: 23.38px;
+    font-size: 24px;
+    font-weight: 1500;
+    color: white;
+}
+.BottomNavigationBar .BottomNavigationBar_center .tel .telcontent span {
+    display: inline-block;
+    width: 65.43px;
+    height: 33.6px;
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+    margin: 4px 0 0 12px;
+}
+.linkbox {
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.linkbox li {
+    display: block;
+    margin-top: 67.2px;
+    margin-bottom: 32px;
+    font-size: 18px;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+
+.linkbox li a:hover {
+    color: #8f8f8f;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+.linkbox ul {
+    margin-left: 100px;
+}

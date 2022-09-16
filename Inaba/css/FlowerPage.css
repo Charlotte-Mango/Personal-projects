@@ -1,0 +1,161 @@
+/* 标题栏 B */
+.PageTitle .PageTitle_picture3 {
+    background-image: url(../images/picture31.jpg);
+    background-position: center center;
+}
+/* 标题栏 E */
+
+/* 选择栏 B */
+/* 左侧用户选择的列表 */
+.FlowerPage_choose {
+    width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.FlowerPage_choose .purpose {
+    margin-bottom: 72px;
+}
+.FlowerPage_choose .purpose h1 {
+    height: 47px;
+    letter-spacing: 2px;
+    font-size: 24px;
+    margin-bottom: 32px;
+    font-weight: normal;
+}
+.FlowerPage_choose .purpose h1::after {
+    display: block;
+    content: '';
+    width: 32px;
+    height: 1px;
+    margin-top: 24px;
+    background: #ddd;
+
+}
+.FlowerPage_choose .purpose ul {
+    margin-bottom: 70px;
+}
+.FlowerPage_choose .purpose ul li {
+    display: block;
+    margin-bottom: 28px;
+}
+.FlowerPage_choose .purpose ul li a {
+    color: black;
+    font-size: 16px;
+}
+
+/* 中间花和价格的展示部分，通用 */
+.FlowerPage_choose .flowers {
+    width: 870px;
+}
+.FlowerPage_choose .flowers p {
+    font-size: 16px;
+    line-height: 1.8;
+    width: 870px;
+}
+.FlowerPage_choose .flowers .flower_wrap {
+    flex-wrap: wrap; /* 让弹性盒元素在必要的时候拆行： */
+    width: 870px;
+    margin: 40px 0 -56px 0;
+}
+.FlowerPage_choose .flowers .flower_wrap .alone {
+    width: 286px;
+    margin: 0 3px 56px 0;
+}
+.FlowerPage_choose .flowers .flower_wrap .alone img {
+    width: 286px;
+    height: 380px;
+    margin-bottom: 28px;
+}
+.FlowerPage_choose .flowers .flower_wrap .alone h2 {
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: normal;
+}
+.FlowerPage_choose .flowers .flower_wrap .roundbtn {
+    margin-top: 40px;
+}
+.FlowerPage_choose .flowers .flower_wrap .roundbtn ul {
+    height: 48px;
+}
+.FlowerPage_choose .flowers .flower_wrap .roundbtn ul li {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+}
+.FlowerPage_choose .flowers .flower_wrap .roundbtn ul li a {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    padding-top: 12px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.FlowerPage_choose .flowers .flower_wrap .roundbtn ul li:hover {
+    background: #333;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+.FlowerPage_choose .flowers .flower_wrap .roundbtn ul li a:hover{
+    color: #fff;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+
+/* 室内配送第1页 */
+.FlowerPage_choose .main1 .flower_wrap .roundbtn1 {
+    background: #333;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+.FlowerPage_choose .main1 .flower_wrap .roundbtn1 a {
+    color: #fff;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+.FlowerPage_choose .main1 .flower_wrap .roundbtn2  {
+    background: #eee;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+.FlowerPage_choose .main1 .flower_wrap .roundbtn2 a {
+    color: #555;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+
+/* 市内配送第2页 */
+.FlowerPage_choose .main2 .flower_wrap .roundbtn1 {
+    background: #eee;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+.FlowerPage_choose .main2 .flower_wrap .roundbtn1 a {
+    color: #555;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+.FlowerPage_choose .main2 .flower_wrap .roundbtn2  {
+    background: #333;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+.FlowerPage_choose .main2 .flower_wrap .roundbtn2 a {
+    color: #fff;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+
+/* 隐藏 */
+.main2 {
+    display: none;
+}
+.celebration {
+    display: none;
+}
+.condole {
+    display: none;
+}
+.potting {
+    display: none;
+}
+.p200 {
+    display: none;
+}
+.p600 {
+    display: none;
+}
+.p601 {
+    display: none;
+}
+/* 选择栏 E */

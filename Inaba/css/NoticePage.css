@@ -1,0 +1,104 @@
+/* 标题栏 B */
+.PageTitle .PageTitle_picture3 {
+    background-image: url(../images/picture26.jpg);
+    background-position: center center;
+}
+/* 标题栏 E */
+
+
+/* 公告栏 B */
+.Notice {
+    width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.Notice .Notice_main {
+    display: inline-block;
+    width: 830px;
+}
+.Notice .Notice_side {
+    display: inline-block;
+    width: 260px;
+}
+.Notice .Notice_main .typearea {
+    height: 180px;
+    padding-bottom: 38px;
+    margin-bottom: 32px;
+    border-bottom: 1px solid #ddd;
+}
+.Notice .Notice_main .typearea .area {
+    height: 180px;
+    width: 830px;
+}
+.Notice .Notice_main .typearea .area img {
+    width: 280px;
+    height: 180px;
+    border-radius: 0 32px;
+}
+.Notice .Notice_main .typearea .area .word {
+    width: 518px;
+    height: 180px;
+    margin-left: 32px;
+    align-items: center; /* 盒子内纵轴上对齐 */
+}
+.Notice .Notice_main .typearea .area .word .center {
+    width: 518px;
+    height: 120px;
+}
+.Notice .Notice_main .typearea .area .word .center li {
+    color: #333;
+}
+.Notice .Notice_main .typearea .area .word .center li:first-of-type{
+
+    margin-right: 8px;
+    padding-right: 8px;
+    color: #888;
+    border-right: 1px solid #ddd;
+}
+.Notice .Notice_main .typearea .area .word .center h3 {
+    margin: 14px 0 18px;
+    line-height: 1.5;
+    font-size: 20px;
+    color: #333;
+    font-weight: 100;
+}
+.Notice .Notice_main .typearea .area .word .center p {
+    color: #333;
+}
+.Notice .Notice_side h3{
+    height: 47px;
+    margin-bottom: 32px;
+    letter-spacing: 2px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.Notice .Notice_side h3:after {
+    display: block;
+    content: '';
+    width: 32px;
+    height: 1px;
+    margin-top: 24px;
+    background: #ddd;
+}
+.Notice .Notice_side a {
+    display: block;
+    margin-bottom: 62px;
+    color: #333;
+    font-size: 17px;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+.Notice .Notice_side a:hover {
+
+    color: #888;
+    transition-duration:0.5s;/* 过渡时间 */
+}
+.Notice .Notice_side select {
+    width: 100%;
+    height: 56px;
+    padding-left: 24px;
+    background: #eee;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    border-radius: 0 0 12px 0;
+}
+/* 公告栏 E */

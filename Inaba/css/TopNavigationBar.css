@@ -1,0 +1,41 @@
+/* 顶部导航栏盒子 B */
+.TopNavigationBar {
+    width: 100%;         /* 固定定位的盒子必须有宽度 */
+    height: 112px;       
+    background: #333;
+    z-index: 2;
+    position: fixed;     
+    
+}
+/* 顶部导航栏盒子 E */
+
+/* Logo盒子 B */
+.TopNavigationBar .Logo {
+    width: 150px;
+    height: 70px;
+    margin-left: 35px;
+    display: inline-block;
+}
+/* Logo盒子 E */
+
+/* logo图片的大小位置 B */
+.TopNavigationBar .Logo img {
+    width: 150px;
+    margin-top: 35px;
+}
+/* logo图片的大小位置 E */
+
+/* 列表 B */
+.TopNavigationBar ul {
+    list-style:none;
+    margin-top: 45px;
+}
+
+.TopNavigationBar ul li {
+    color: white;
+    font-size: 14px;
+    font-family:'Roboto';
+    margin-right: 32px;
+    font-weight: 550; 
+}
+/* 列表 E */

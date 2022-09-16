@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>本店特色-花工房|Inaba</title>
+    <link rel="icon" href="images/logo.ico">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/TopNavigationBar.css">
+    <link rel="stylesheet" href="css/BottomNavigationBar.css">
+    <link rel="stylesheet" href="css/FeaturePage.css">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+     <!-- 顶部导航栏 B -->
+     <div class="TopNavigationBar">
+        <a href="HomePage.html" class="Logo">
+            <img src="images/logo.png">
+        </a>
+        <ul class="fr"> 
+            <li><a href="FeaturePage.html">特色    </a></li>
+            <li><a href="FlowerPage.html">插花    </a></li>
+            <li><a href="EntrustPage.html">委托    </a></li>
+            <li><a href="NoticePage.html">公告    </a></li>
+            <li><a href="FaqPage.html">常见问题</a></li>
+            <li><a href="AboutPage.html">关于我们</a></li>
+            <li><a href="ContactPage.html">联系我们</a></li>
+        </ul>
+    </div>
+    <!-- 顶部导航栏 E -->
+
+    <!-- 标题栏 B -->
+    <div class="PageTitle">
+        <div class="PageTitle_picture PageTitle_picture1"></div>
+        <div class="PageTitle_head">
+            <span>Features</span>
+            <h1>本店特色</h1>
+        </div>
+    </div>
+    <!-- 标题栏 E -->
+
+    <!-- 文字栏 B -->
+    <div class="FeaturePage_wordbox" id="pic">
+        <div class="FeaturePage_wordbox_center">
+            <div class="word1">
+                <span>Our commitment</span>
+                <h3>每一束花都不同</h3>
+            </div>
+            <div class="word2 fr">
+                <p>
+                    即使是同一朵花，插花的位置和角度不同
+                    <br>
+                    印象也会突然改变。
+                    <br>
+                    因此，根据委托者的要求
+                    <br>
+                    每一束花都不相同。
+                </p>
+                <p class="p2">
+                    本店有一级的花卉装饰技师
+                    <br>
+                    至今为止完成了很多独具特色的花束
+                    <br>
+                    每一位顾客都很满意。
+                    <br>
+                    花的事情就交给我们吧！
+                </p>
+            </div>
+            
+        </div>
+    </div>
+    <!-- 文字栏 E -->
+
+    <!-- 插花案例栏 B -->
+    <div class="FeaturePage_arrange">
+        <div class="FeaturePage_arrange_center">
+            <div class="head">
+                <span>Performance</span>
+                <h3>花束案例</h3>
+            </div>
+            <div class="picture">
+                <div class="picture1">
+                    <img src="images/picture16.jpg">
+                </div>
+                <div class="picture2">
+                    <img src="images/picture17.jpg">
+                </div>
+                <div class="picture3">
+                    <img src="images/picture18.jpg">
+                </div>
+                <div class="picture4">
+                    <img src="images/picture19.jpg">
+                </div>
+                <div class="case case1">Case 01</div>
+                <div class="case case2">Case 02</div>
+                <div class="case case3">Case 03</div>
+                <div class="case case4">Case 04</div>
+            </div>
+            <a href="FlowerPage.html">
+              <div class="buybtn">插花列表一览</div>
+            </a>
+    </div>
+    <!-- 插花案例栏 E -->
+
+    <!-- 底部栏 B -->
+    <div class="BottomNavigationBar">
+        <div class="BottomNavigationBar_center">
+            <div class="logo"><img src="images/logo.png" alt=""></div>
+            <p class="address">〒515-0063 三重県松阪市大黒田町308-14</p>
+            <div class="tel">
+                <h4>电话咨询</h4>
+                <div class="telcontent">
+                    <h3>0598-26-0178</h3>
+                    <span>年中無休<br>9:00 - 19:00</span>
+                </div>
+            </div>
+            <div class="linkbox">
+                <ul >
+                    <li><a href="#">特色</a></li>
+                    <li><a href="#">插花</a></li>
+                    <li><a href="#">委托</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">公告    </a></li>
+                    <li><a href="#">常见问题</a></li>
+                    <li><a href="#">关于我们</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">联系我们          </a></li>
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <!-- 底部栏 E -->
+</body>
+<script>
+    $(document).ready(function(){
+        $("#pic").animate({"backgroundPositionX":"1400px"},50000);
+        setTimeout(function(){
+        $("#pic").animate({"backgroundPositionX":"-1000px"},60000);
+        },1000)
+        setTimeout(function(){
+        $("#pic").animate({"backgroundPositionX":"150px"},40000);
+        },500)
+    })
+</script>
+</html>
