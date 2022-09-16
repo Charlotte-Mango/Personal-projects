@@ -1,0 +1,56 @@
+<!-- 顶部 -->
+<view class="topbar">
+    <!-- 左边文字 -->
+    <view class="left"> 茶百道成都大学店</view>
+    <!-- 右边按钮 -->
+    <view class="right">
+        <view class="btn1">自取</view>
+        <view class="btn2">外卖</view>
+    </view>
+
+</view>
+<!-- 轮播图 -->
+<view class="lunbo">
+    <swiper indicator-dots="true" indicator-color="#fff" indicator-active-color="#1a2b79" autoplay="true" interval="4000" circular="true">
+        <block wx:for="{{banner2}}" wx:key="this">
+            <swiper-item>
+                <image src="{{item}}"></image>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
+<!-- 下方内容 -->
+<view class="menu">
+    <view class="left-box">
+        <scroll-view class="left-menu" scroll-y>
+            <view bindtap="changeMenu" data-i="{{index}}" data-id="menu{{index}}" class="menu-item {{index==currentIndex?'menu-active':''}}" wx:for="{{menu_list}}" wx:key="this">
+                <image src="{{item.main_pic}}"></image>
+                <view class="text">{{item.main_name}}</view>
+            </view>
+        </scroll-view>
+    </view>
+    <!-- 右侧盒子 -->
+    <view class="right-box">
+        <scroll-view bindscroll="getScroll" class="right-menu" scroll-y scroll-into-view="{{rightViewId}}">
+            <!-- 右侧菜单所有内容 -->
+            <view class=" content" wx:for="{{menu_list}}" wx:key="this" id="menu{{index}}">
+                <!-- 品种标题 -->
+                <text class="title">{{item.main_name}}</text>
+                <!-- 每个品种下面展示部分 -->
+                <view class="bottom">
+                    <view class="object" wx:for="{{item.rightlist}}" wx:key="this">
+                        <!-- 左侧图片 -->
+                        <image src="{{item.pic}}"></image>
+                        <!-- 右侧内容 -->
+                        <view class="right-cont">
+                            <view class="titles">{{item.title}}</view>
+                            <view class="words duo">{{item.words}}</view>
+                            <view class="price">{{item.price}}</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </scroll-view>
+    </view>
+
+</view>

@@ -1,0 +1,93 @@
+<!--pages/mine/mine.wxml-->
+<view class="zongtibeijing">
+  <!-- 顶部 -->
+  <view class="dingbu">
+    <image src="/images/mine/mine-top.jpg" class="tupian"></image>
+  </view>
+  <view class="mingzi">这是一个网名</view>
+  <view class="biaoqian">初级茶粉</view>
+  <image class="touxiang" src="/images/mine/mine-avatar.png"></image>
+  <!-- 我的资产 -->
+  <view class="zichan">
+    <view class="timu">我的资产</view>
+    <view class="tubiao1">
+      <view class="tubiao1-1">
+        <view class="tubiao1up">
+          <image src="/images/mine/mine-1-1.png"></image>
+          <text>积分</text>
+        </view>
+        <view class="tubiao1down">
+          <text class="down1">22</text>
+          <text class="down2">个未使用</text>
+        </view>
+      </view>
+      <view class="tubiao1-1">
+        <view class="tubiao1up">
+          <image src="/images/mine/mine-1-2.png"></image>
+          <text>优惠券</text>
+        </view>
+        <view class="tubiao1down">
+          <text class="down1">0</text>
+          <text class="down2">张未使用</text>
+        </view>
+      </view>
+      <view class="tubiao1-1">
+        <view class="tubiao1up">
+          <image src="/images/mine/mine-1-3.png"></image>
+          <text>余额</text>
+        </view>
+        <view class="tubiao1down">
+          <text class="down1">0</text>
+          <text class="down2">元未使用</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 我的订单 -->
+  <view class="dingdan">
+    <view class="timu">我的订单</view>
+    <view class="tubiao2">
+      <view class="tubiao2-1">
+        <image src="/images/mine/mine-2-1.png"></image>
+        <text>食堂/外卖</text>
+      </view>
+      <view class="tubiao2-1">
+        <image src="/images/mine/mine-2-2.png"></image>
+        <text>买单订单</text>
+      </view>
+      <view class="tubiao2-1">
+        <image src="/images/mine/mine-2-3.png"></image>
+        <text>预约订单</text>
+      </view>
+      <view class="tubiao2-1">
+        <image src="/images/mine/mine-2-4.png"></image>
+        <text>储值订单</text>
+      </view>
+    </view>
+  </view>
+  <!-- 我的功能 -->
+  <view class="gongneng">
+    <view class="timu">我的功能</view>
+    <view class="tubiao2">
+      <view class="tubiao2-1">
+        <image src="/images/mine/mine-3-1.png"></image>
+        <text>我的地址</text>
+      </view>
+      <view class="tubiao2-1">
+        <image src="/images/mine/mine-3-2.png"></image>
+        <text>会员码</text>
+      </view>
+      <view class="tubiao2-1">
+        <image src="/images/mine/mine-3-3.png"></image>
+        <text>兑换优惠</text>
+      </view>
+      <view class="tubiao2-1">
+        <image src="/images/mine/mine-3-4.png"></image>
+        <text>联系客服</text>
+      </view>
+    </view>
+  </view>
+  <!-- 结束图标 -->
+  <image class="jieshutubiao" src="/images/mine/mine-logo icon.png"></image>
+  <text class="jieshuyu">第四小组技术支持</text>
+</view>

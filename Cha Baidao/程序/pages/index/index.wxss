@@ -1,0 +1,127 @@
+/* 轮播区域 */
+.cover {
+  width: 750rpx;
+  height: 1300rpx;
+  position: relative;
+}
+
+.lunbo {
+  position: absolute;
+  width: 750rpx;
+  height: 600rpx;
+}
+
+.lunbo image {
+  width: 100%;
+  height: 100%;
+}
+
+/* 封面区域 */
+.coverPic {
+  width: 100%;
+  height: 700rpx;
+  position: absolute;
+  top: 550rpx;
+  border-radius: 28px;
+  background-color: #fff;
+}
+
+.coverPic .startOrder {
+  margin-top: 40rpx;
+  padding: 0rpx 260rpx 0rpx 250rpx;
+  width: 250rpx;
+  height: 200rpx;
+}
+
+.coverPic .bottom_2 {
+  margin-top: 20rpx;
+  width: 100%;
+}
+
+/* 下方详细展示 */
+.good_show {
+  width: 750rpx;
+  height: 300rpx;
+}
+
+/* 新鲜出炉的文字 */
+.good_show .new_good {
+  width: 100%;
+  height: 72rpx;
+  background-color: #1a2b79;
+  color: #fff;
+  font-size: 30rpx;
+  font-family: "Microsoft yahei";
+  text-align: center;
+  line-height: 72rpx;
+  margin: 20rpx 0;
+  letter-spacing: 3px;
+}
+
+/* 新鲜出炉的pics */
+.new_good_pic {
+  width: 720rpx;
+  height: 502rpx;
+/*   background-color: red; */
+  margin: 0 auto;
+}
+
+.new_good_pic .show1-item {
+  display: inline-block;
+  position: relative;
+  width: 330rpx;
+  height: 220rpx;
+  margin-bottom:30rpx;
+  margin-left: 20rpx;
+  margin-top:8rpx;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 6px 2px #e2e2e2;
+}
+.new_good_pic .show1-item .wow{
+  position: absolute;
+  right: 12rpx;
+  letter-spacing: 8rpx;
+  font-style: italic;
+  color: #1a2b79;
+}
+.new_good_pic .show1-item .new{
+  position: absolute;
+  right: 0;
+  right: 8rpx;
+  margin-top: 30rpx;
+  color: #1a2b79;
+}
+.new_good_pic .show1-item .name{
+  position: absolute;
+  writing-mode: vertical-lr;
+  color: #1a2b79;
+  font-family: "Microsoft yahei";
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-top: 20rpx;
+  margin-left:32rpx;
+  font-size: 14px;
+}
+.new_good_pic .show1-item image {
+  display: block;
+  width: 330rpx;
+  height: 220rpx;
+
+}
+/* 茶道 */
+.chadao{
+  height: 250rpx;
+}
+.chadao .scroll_chadao{
+  white-space: nowrap;
+}
+.chadao .scroll_chadao .chadaoPic{
+  display: inline-block;
+  width: 400rpx;
+  height: 250rpx;
+}
+.chadao .scroll_chadao .chadaoPic image{
+  width: 400rpx;
+  height: 250rpx;
+}

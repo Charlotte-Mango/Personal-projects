@@ -1,0 +1,55 @@
+<!--map-->
+<view class="content_map">
+  <map class="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="15" markers="{{markers}}" style="width:100%;height:300rpx;"></map>
+</view>
+
+<!--第一个门店 box2；第二、三个门店data读入数据，第四个门店box与第二三个排列一样，单独列出来以供对照参考-->
+<view class="content">
+  <view class="all">
+    <!--门店休息-->
+    <view class="box2">
+      <view class="left-box2">
+        <view class="tle2">茶百道锦江壹购店</view>
+        <view class="post2">四川省成都市锦江区上东大街段133号壹购潮流广场外街铺G6号</view>
+        <view class="post2">10:00-22:00</view>
+        <view class="post2">门店休息</view>
+      </view>
+      <view class="right-box2">
+        <view class="look2">去看看</view>
+        <view class="dist2">距离11.6km</view>
+      </view>
+    </view>
+    <view class="line"></view>
+    <!--我自己写了js data [array]，引入-->
+    <!--门店营业中-->
+    <view class="on">
+      <view class="box" wx:for="{{array}}" wx:key="this">
+        <view class="left-box">
+          <view class="tle">{{item.title}}</view>
+          <view class="post">{{item.position}}</view>
+          <view class="post">{{item.text1}}</view>
+          <view class="postc">{{item.text2}}</view>
+          <view class="line2">{{line}}</view>
+        </view>
+        <view class="right-box">
+          <view class="look">{{item.look}}</view>
+          <view class="dist">{{item.dis}}</view>
+        </view>
+      </view>
+    </view>
+    <!--门店营业中对照参考组-->
+    <view class="box">
+      <view class="left-box">
+        <view class="tle">茶百道郫都恒山南街店</view>
+        <view class="post">四川省成都市郫都区犀浦镇恒山南街232号</view>
+        <view class="post">10:40-21:40</view>
+        <view class="postc">营业中</view>
+      </view>
+      <view class="right-box">
+        <view class="look">去下单</view>
+        <view class="dist">距离24.7km</view>
+      </view>
+    </view>
+    <view class="line"></view>
+  </view>
+</view>

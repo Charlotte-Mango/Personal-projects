@@ -1,0 +1,192 @@
+/* pages/menu/menu.wxss */
+/* 顶部 */
+.topbar {
+    padding: 0 30rpx;
+    text-align: center;
+    height: 120rpx;
+    line-height: 120rpx;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20rpx;
+    box-shadow: 0 15rpx 15rpx -15rpx #999999;
+}
+
+/* 顶部左边文本 */
+.topbar .left {
+    font-size: 36rpx;
+    color: #1a2b79;
+    font-weight: bold;
+}
+
+/* 顶部右边按钮 */
+.topbar .right {
+    margin-top: 35rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    font-weight: 700;
+    font-size: 24rpx;
+    display: flex;
+}
+
+.topbar .btn1 {
+    width: 80rpx;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50rpx;
+    margin-right: -40rpx;
+    box-shadow: 0 0 3rpx gray;
+    z-index: 1;
+}
+
+.topbar .btn2 {
+    width: 94rpx;
+    text-align: right;
+    padding-right: 20rpx;
+    background-color: #1a2b79;
+    box-shadow: 0 0 3rpx gray;
+    color: #fff;
+    border-radius: 50rpx;
+    z-index: 0;
+}
+
+/* 轮播 */
+.lunbo {
+    padding: 0 30rpx;
+    height: 350rpx;
+}
+
+.lunbo swiper {
+    height: 350rpx;
+    border-radius: 20rpx;
+    overflow: hidden;
+}
+
+.lunbo swiper-item image {
+    width: 100%;
+    height: 100%;
+}
+
+/* 改变圆点样式 */
+swiper .wx-swiper-dot {
+    width: 30rpx;
+    height: 10rpx;
+    border-radius: 5rpx;
+}
+
+/* 下方内容 */
+/* 左侧菜单 */
+.menu {
+    padding: 0 30rpx;
+}
+
+.left-box {
+    position: fixed;
+    width: 150rpx;
+    height: 55%;
+    margin-top: 16rpx;
+}
+
+.left-menu {
+    height: 100%;
+    width: 100%;
+}
+
+.menu-item {
+    width: 150rpx;
+    height: 100rpx;
+    padding: 20rpx 0;
+    text-align: center;
+    background-color: #f5f5f5;
+    display: inline-block;
+    color: #6a6a6a;
+}
+
+/* 选中后的样式 */
+.menu-active {
+    background-color: #fff;
+    color: #1a2b79;
+}
+
+.menu-item image {
+    width: 40rpx;
+    height: 70rpx;
+}
+
+.menu-item .text {
+    font-size: 24rpx;
+    font-weight: 700;
+
+}
+
+/* 右侧菜单 */
+.right-box {
+    height: 54%;
+    width: 530rpx;
+    position: fixed;
+    margin-top: 20rpx;
+    left: 190rpx;
+}
+
+.right-menu {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.content .title {
+    font-size: 20rpx;
+    margin-top: 10rpx;
+    color: #9a9a9a;
+}
+
+/* 右侧菜单下方每个内容 */
+.content .object {
+    width: 516rpx;
+    height: 130rpx;
+    margin: 30rpx 0;
+    display: flex;
+}
+
+/* 下方内容左侧图片 */
+.content .object image {
+    width: 130rpx;
+    height: 130rpx;
+}
+
+/* 下方内容右侧部分 */
+.content .object .right-cont {
+    width: 376rpx;
+    height: 130rpx;
+    position: relative;
+}
+
+/* 右边标题 */
+.content .object .titles {
+    font-size: 24rpx;
+    font-weight: 700;
+    color: #000;
+}
+
+/* 介绍文字 */
+.content .object .words {
+    margin-top: 10rpx;
+    font-size: 20rpx;
+    color: #9a9a9a;
+}
+
+/* 超出两行则省略 */
+.content .object .duo {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+/* 价格 */
+.content .object .price {
+    position: absolute;
+    bottom: 0;
+    font-size: 24rpx;
+    font-weight: 700;
+    color: #000;
+}

@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/menu/menu",
+    "pages/map/map",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#1a2b79",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/tapbar/tapbar-index.png",
+        "selectedIconPath": "/images/tapbar/tapbar-index-active.png"
+      },
+      {
+        "pagePath": "pages/menu/menu",
+        "text": "点单",
+        "iconPath": "/images/tapbar/tapbar-menu.png",
+        "selectedIconPath": "/images/tapbar/tapbar-menu-active.png"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "门店",
+        "iconPath": "/images/tapbar/tapbar-store.png",
+        "selectedIconPath": "/images/tapbar/tapbar-store-active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/images/tapbar/tapbar-my.png",
+        "selectedIconPath": "/images/tapbar/tapbar-my-active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

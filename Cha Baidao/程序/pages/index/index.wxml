@@ -1,0 +1,45 @@
+<!-- 上方封面 -->
+<view class="cover">
+  <!-- 轮播区域 -->
+  <swiper class="lunbo" autoplay="600ms" circular="true">
+    <block wx:for="{{banners1}}" wx:key="this">
+      <swiper-item>
+        <image src="{{item}}"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <!-- 封面区域 -->
+  <view class="coverPic">
+    <image class="startOrder" src="/images/index/button-1.png" bindtap="TakeOrder"></image>
+    <image class="bottom_2" src="/images/index/bottom-2.png" bindtap="scrollPage"></image>
+  </view>
+</view>
+
+<!-- 下方详细展示 -->
+<view class="good_show" id="good_shows">
+  <!-- 新鲜出炉 -->
+  <view class="new_good">
+    <text>新鲜出炉!</text>
+  </view>
+  <!-- 新鲜出炉的pics -->
+  <view class="new_good_pic">
+    <view class="show1-item" wx:for="{{show1}}" wx:key="this">
+      <text class="wow">{{item.wow}}</text>
+      <text class="new">{{item.new}}</text>
+      <text class="name">{{item.name}}</text>
+      <image src="{{item.src}}"></image>
+    </view>
+  </view>
+  <!-- 茶道 -->
+  <view class="new_good">
+    <text>茶●道</text>
+  </view>
+  <!-- 茶道滚条 -->
+  <view class="chadao">
+    <scroll-view class="scroll_chadao" scroll-x="true" scroll-y="false">
+      <view class="chadaoPic" wx:for="{{show2}}" wx:key="this">
+        <image src="{{item}}"></image>
+      </view>
+    </scroll-view>
+  </view>
+</view>
