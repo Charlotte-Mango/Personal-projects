@@ -1,0 +1,218 @@
+.w {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.topbar {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #cccccc;
+}
+.topbar .topbarL {
+  height: 40px;
+  margin-left: 27.734375%;
+}
+.topbar .topbarL a {
+  display: block;
+  padding: 0 7px;
+}
+.topbar .topbarL :hover {
+  background-color: #008fd5;
+  color: #fff;
+}
+.topbar .topbarR {
+  height: 40px;
+}
+.topbar .topbarR a {
+  margin-left: 15px;
+  vertical-align: middle;
+}
+.topbar .topbarR a.iconfont {
+  font-size: 33px;
+}
+.topbar .topbarR a.icon-weibo {
+  color: #ed5053;
+}
+.topbar .topbarR a.icon-weixin--- {
+  color: #6aaf28;
+}
+.topbar .topbarR a.icon-in {
+  color: #008fd5;
+}
+.header {
+  height: 90px;
+  line-height: 90px;
+}
+.header h1 a {
+  display: block;
+  width: 223px;
+  height: 90px;
+  background: url("../images/logo.png") no-repeat center;
+  text-indent: -9999px;
+}
+.header .headerM {
+  margin-left: 7.8125%;
+}
+.header .headerM li {
+  margin: 0 30px;
+}
+.header .headerM li a {
+  display: inline-block;
+  height: 60px;
+}
+.header .headerM li a:hover {
+  border-bottom: 4px solid #008fd5;
+}
+.header .headerR .iconfont {
+  font-size: 25px;
+  color: #666666;
+}
+.header .headerR span:last-child {
+  display: none;
+}
+.banner img {
+  width: 100%;
+  display: block;
+}
+.banner a:last-child img {
+  display: none;
+}
+.news {
+  height: 70px;
+  line-height: 70px;
+  background-color: #008fd5;
+}
+.news .newsL span {
+  display: inline-block;
+  width: 117px;
+  height: 35px;
+  line-height: 35px;
+  background: url("../images/news_information.png") no-repeat;
+  text-align: center;
+  color: #018ed3;
+  font-weight: bold;
+}
+.news .newsL a {
+  display: inline-block;
+  margin-left: 44px;
+  color: #fff;
+}
+.news .newsR .iconfont {
+  font-size: 20px;
+  color: #fff;
+}
+.report {
+  margin-top: 20px;
+}
+.report li {
+  width: calc((100% - 40px) / 3);
+  margin-right: 20px;
+  height: 420px;
+  background-color: #eeeeee;
+}
+.report li div {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.report li img {
+  display: block;
+  width: 100%;
+  transition: 0.5s;
+}
+.report li img:hover {
+  transform: scale(1.2);
+}
+.report li h4 {
+  padding-left: 35px;
+  padding-right: 45px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #008fd5;
+}
+.report li p {
+  text-align: justify;
+  padding-left: 35px;
+  padding-right: 45px;
+  margin-top: 14px;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.report :last-child {
+  margin-right: 0;
+}
+.vedio {
+  margin-top: 10px;
+}
+.vedio img {
+  width: 100%;
+}
+.bottombar {
+  height: 317px;
+  margin-top: 68px;
+  border-bottom: 1px solid #cccccc;
+}
+.bottombar dl {
+  margin-right: 7%;
+}
+.bottombar dl dt {
+  margin-bottom: 22px;
+  font-size: 18px;
+}
+.bottombar dl dt a {
+  color: #008fd5;
+}
+.bottombar dl dt a span {
+  display: none;
+}
+.bottombar dl dd {
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+.bottombar dl dd img {
+  width: 100%;
+}
+.bottombar dl:last-child {
+  width: 40%;
+  margin-right: 0;
+}
+.lastbox {
+  padding: 0 20px;
+  box-sizing: border-box;
+  height: 60px;
+  line-height: 60px;
+  border-top: 1px solid #ccc;
+  font-size: 12px;
+}
+.lastbox p img {
+  position: relative;
+  top: 3px;
+}
+.lastbox a {
+  font-size: 12px;
+  color: #000;
+}
+@media screen and (max-width: 1000px) {
+  .lastbox {
+    padding: 16px 20px;
+  }
+  .lastbox p {
+    float: none;
+    display: block;
+    text-align: center;
+    height: 27px;
+    line-height: 27px;
+  }
+  .lastbox p:last-child {
+    float: none;
+  }
+}
+/*# sourceMappingURL=./index.css.map */

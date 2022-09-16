@@ -1,0 +1,93 @@
+.header h1 a {
+  background-size: 145px;
+}
+.header .headerR .iconfont {
+  font-size: 35px;
+}
+.banner a:first-child img {
+  display: none;
+}
+.banner a:last-child img {
+  display: inline-block;
+}
+.news .newsL span {
+  display: none;
+}
+.news .newsL a {
+  font-size: 16px;
+  margin-left: 12px;
+}
+.news .newsR {
+  display: none;
+}
+.report li {
+  display: block;
+  height: 17%;
+  margin: 0 5px 10px;
+  width: auto;
+  float: none;
+}
+.report li h4 {
+  font-size: 20px;
+  padding: 0 12px;
+}
+.report li p {
+  font-size: 16px;
+  line-height: 28px;
+  padding: 24px 12px;
+  margin-top: 0;
+}
+.vedio img {
+  width: 97%;
+  margin: 0 5px 15px;
+}
+.bottombar {
+  margin-top: 0;
+  height: 10%;
+  border-bottom: none;
+}
+.bottombar dl {
+  width: 100%;
+  float: none;
+}
+.bottombar dl dt {
+  height: 68px !important;
+  line-height: 68px;
+  border-top: 0.5px solid #cccccc;
+  border-bottom: 0.5px solid #cccccc;
+  padding-left: 4.8%;
+  height: 70px;
+  margin-bottom: 0px;
+}
+.bottombar dl dt a span {
+  display: inline-block;
+  padding-right: 22px;
+}
+.bottombar dl dt a .iconfont {
+  font-size: 24px;
+}
+.bottombar dl dt:first-child {
+  border-top: 1px solid #cccccc;
+}
+.bottombar dl dt:last-child {
+  border-bottom: 1px solid #cccccc;
+}
+.bottombar dl dd {
+  display: none;
+}
+.bottombar dl:last-child dt {
+  display: none;
+}
+.lastbox {
+  height: auto;
+}
+.lastbox a:last-child {
+  display: block;
+}
+.lastbox p {
+  height: auto;
+}
+.lastbox p span {
+  display: block;
+}
+/*# sourceMappingURL=./phone.css.map */

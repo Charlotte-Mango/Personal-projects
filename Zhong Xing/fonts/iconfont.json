@@ -1,0 +1,65 @@
+{
+  "id": "2170780",
+  "name": "ZTE",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2007214",
+      "name": "加号(线性)",
+      "font_class": "cricle-o-plus",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "2985052",
+      "name": "wei-xin",
+      "font_class": "weixin---",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "1239417",
+      "name": "in",
+      "font_class": "in",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "1456986",
+      "name": "language",
+      "font_class": "language",
+      "unicode": "e7be",
+      "unicode_decimal": 59326
+    },
+    {
+      "icon_id": "3340207",
+      "name": "微博 (3)",
+      "font_class": "weibo",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "10267591",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "12032524",
+      "name": "栏目管理",
+      "font_class": "route_menu",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "15264265",
+      "name": "Icon - Keyboard Arrow - Down - Rounded",
+      "font_class": "ARROW",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}
